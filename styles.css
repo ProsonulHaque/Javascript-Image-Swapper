@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    background: rgb(16, 35, 47);
+    color: white;
+    border: 2px solid #182d41;
+    box-shadow: 0 0 5px #000 inset;
+    padding: 5px;
+    width: fit-content;
+    margin: 10px auto;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.container {
+    margin: auto;
+    background: rgb(16, 35, 47);
+    color: white;
+    border: 2px solid rgb(43, 52, 66);
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+.content {
+    position: absolute;
+    text-align: center;
+    padding: auto;
+    box-shadow: 0 0 30px #000 inset;
+}
+.image {
+    transition: all 0.5s linear;
+    position: absolute;
+}
+p {
+    margin: auto;
+    padding: 10%;
+}
